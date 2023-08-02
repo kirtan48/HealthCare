@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LabTestActivity"
+    android:background="@drawable/back1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_24_7_health_care"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/FDtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Location:Surat"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/labTestAndPackages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAB TEST AND PACKAGES"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"/>
+
+    <ListView
+        android:id="@+id/packageList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginStart="40dp"
+            android:id="@+id/btnBack"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/design_default_color_primary_dark"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:text="Go To Cart"
+            android:id="@+id/btnGotocart"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/design_default_color_primary_dark"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

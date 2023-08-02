@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cartActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_24_7_health_care"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Location:Surat"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/labTestName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart Details"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:id="@+id/cartDetails"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:inputType="textMultiLine"
+        android:text="h"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TEXT"
+        android:id="@+id/cartValue"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="CHECK OUT"
+            android:id="@+id/cartOrder"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/design_default_color_primary_dark"
+            android:textSize="20sp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginStart="110dp"
+
+            android:id="@+id/cartBack"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/design_default_color_primary_dark"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
